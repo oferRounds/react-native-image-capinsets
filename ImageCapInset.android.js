@@ -34,7 +34,7 @@ class ImageCapInset extends Component {
 
 ImageCapInset.propTypes = {
   ...View.propTypes,
-  source: Image.propTypes.source,
+  source: PropTypes.source,
   capInsets: PropTypes.shape({
     top: PropTypes.number,
     left: PropTypes.number,
